@@ -58,5 +58,5 @@ function sumNum(){
 }
 sumNum()
 console.log('---------------------------------')
-//6. Calculate 5!  i.e Reminder n! = 1 * 2 * ... * n
+
 
