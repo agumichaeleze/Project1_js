@@ -1,20 +1,22 @@
+console.log('1---------------------------------')
 //1. Print numbers from 1 to 10
 for(let number = 0; number <=10; number++){
     console.log(number)
 }
-console.log('---------------------------------')
 
+console.log('2---------------------------------')
 //2. Print the odd numbers less than 100
 for(let odd = 1; odd < 100; odd+=2){
 console.log(odd)
 }
-console.log('---------------------------------')
 
+console.log('3---------------------------------')
 //3. Print the multiplication table with 7
 for(let multiple = 7; multiple<=84; multiple+=7){
     console.log(multiple)
 }
-console.log('---------------------------------')
+
+console.log('4---------------------------------')
 //4. Print all the multiplication tables with numbers from 1 to 10
 for(let two = 2; two<=24; two+=2){
     console.log(two)
@@ -49,7 +51,8 @@ for(let eleven = 11; eleven<=132; eleven+=11){
 for(let twelve = 12; twelve<=144; twelve+=12){
     console.log(twelve)
 }
-console.log('---------------------------------')
+
+console.log('5---------------------------------')
 //5. Calculate the sum of numbers from 1 to 10
 // let sumNum =  2+4+6+8+10
 // console.log(sumNum)
@@ -57,6 +60,31 @@ function sumNum(){
     console.log(2+4+6+8+10)
 }
 sumNum()
-console.log('---------------------------------')
 
+console.log('6---------------------------------')
+// 6. Calculate 5!  i.e Reminder n! = 1 * 2 * ... * n
+let n = 1*2*3*4*5
+console.log(n)
 
+console.log('7---------------------------------')
+// 7. Calculate the sum of odd numbers greater than 10 and less or equal than 30
+function oddNum(){
+    console.log(11+13+15+17+19+21+23+25+27+29)
+}
+oddNum()
+
+console.log('10---------------------------------')
+//10. Calculate the sum of numbers in an array of numbers.
+// Example array:
+// [2, 3, -1, 5, 7, 9, 10, 15, 95]
+// Expected output: 145
+let sumOfNum =[2+3+(-1)+5+7+9+10+15+95]
+console.log(sumOfNum)
+
+console.log('11---------------------------------')
+// 11. Calculate the average of the numbers in an array of numbers
+// Example array: [1, 3, 9, 15, 90]
+// Expected output: 23.6
+let aveNum = [1+3+9+15+90]
+aveNum = aveNum/5
+console.log(aveNum)
